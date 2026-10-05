@@ -1,0 +1,9 @@
+prefix=/workspaces/Glide/target/debug/build/shaderc-sys-b9e9f168e3c8ee58/out
+includedir=${prefix}/include
+
+Name: SPIRV-Headers
+Description: Header files from the SPIR-V registry
+Version: 1.5.5
+Requires:
+Libs:
+Cflags: -I${includedir}

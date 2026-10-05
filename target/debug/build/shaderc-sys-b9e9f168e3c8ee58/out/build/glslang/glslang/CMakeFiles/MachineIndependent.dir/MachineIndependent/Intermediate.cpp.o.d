@@ -1,0 +1,12 @@
+glslang/glslang/CMakeFiles/MachineIndependent.dir/MachineIndependent/Intermediate.cpp.o: \
+ /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/glslang/glslang/MachineIndependent/Intermediate.cpp \
+ /usr/include/stdc-predef.h \
+ /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/glslang/glslang/MachineIndependent/localintermediate.h \
+ /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/glslang/glslang/MachineIndependent/RemoveTree.h \
+ /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/glslang/glslang/MachineIndependent/SymbolTable.h \
+ /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/glslang/glslang/MachineIndependent/propagateNoContraction.h \
+ /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/glslang/glslang/MachineIndependent/../Include/intermediate.h \
+ /usr/include/c++/13/cfloat \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+ /usr/include/c++/13/utility /usr/include/c++/13/tuple

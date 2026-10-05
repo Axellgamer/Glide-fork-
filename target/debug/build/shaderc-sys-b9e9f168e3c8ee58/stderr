@@ -1,0 +1,63 @@
+running: cd "/workspaces/Glide/target/debug/build/shaderc-sys-b9e9f168e3c8ee58/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build" "-B" "/workspaces/Glide/target/debug/build/shaderc-sys-b9e9f168e3c8ee58/out/build" "-DCMAKE_INSTALL_LIBDIR=lib" "-DCMAKE_POSITION_INDEPENDENT_CODE=ON" "-DENABLE_SPVREMAPPER=OFF" "-DENABLE_GLSLANG_BINARIES=OFF" "-DSHADERC_SKIP_TESTS=ON" "-DSPIRV_SKIP_EXECUTABLES=ON" "-DSPIRV_WERROR=OFF" "-DCMAKE_INSTALL_PREFIX=/workspaces/Glide/target/debug/build/shaderc-sys-b9e9f168e3c8ee58/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Release"
+CMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at spirv-headers/CMakeLists.txt:31 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at spirv-tools/CMakeLists.txt:241 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  spirv-tools/CMakeLists.txt:251 (find_host_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at spirv-tools/CMakeLists.txt:241 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  glslang/CMakeLists.txt:316 (find_host_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at shaderc/cmake/setup_build.cmake:52 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  shaderc/CMakeLists.txt:74 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at spirv-tools/CMakeLists.txt:241 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  shaderc/CMakeLists.txt:99 (find_host_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+
+
+running: cd "/workspaces/Glide/target/debug/build/shaderc-sys-b9e9f168e3c8ee58/out/build" && LC_ALL="C" MAKEFLAGS="-j --jobserver-fds=3,9 --jobserver-auth=3,9" "cmake" "--build" "/workspaces/Glide/target/debug/build/shaderc-sys-b9e9f168e3c8ee58/out/build" "--target" "install" "--config" "Release"
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shaderc-sys-0.8.3/build/spirv-tools/utils/update_build_version.py:120: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  formatted = datetime.datetime.utcfromtimestamp(timestamp).isoformat()
